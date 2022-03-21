@@ -17,3 +17,8 @@
   flex-direction: row;
   align-items: center;
 }
+.icon{
+  margin: 3px 10px 0 0;
+  color: #00c9c5;
+  font-size: 6vh;
+}

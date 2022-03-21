@@ -1,7 +1,7 @@
 import type {NextPage} from 'next';
 import {Box, Button, Grid, GridItem, Heading, Icon, List, ListItem} from "@chakra-ui/react";
 import styles from "../styles/Home.module.css";
-import {MdConnectWithoutContact, MdLogin, MdVpnKey} from "react-icons/all";
+import {MdConnectWithoutContact, MdLogin, MdVpnKey} from "react-icons/md";
 
 const Home: NextPage = () => {
     return (
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
             >
                 <GridItem colSpan={1}>
                     <div className={styles.container}>
-                        <Heading fontSize={'6vh'}>
+                        <Heading m={'3vh'} fontSize={'6vh'}>
                             Welcome to GLaDOS
                         </Heading>
                         <Box bg='#663366' w='100%' minH='80%' color='white'>
@@ -26,19 +26,19 @@ const Home: NextPage = () => {
                         <List spacing={5}>
                             <ListItem fontSize={'4.5vh'}>
                                 <div className={styles.inlineCenter}>
-                                    <Icon as={MdLogin} m={'5px 5px 0 0'} color='#00c9c5'/>
+                                    <MdLogin className={styles.icon}/>
                                     Log in with your Fontys account.
                                 </div>
                             </ListItem>
                             <ListItem fontSize={'4.5vh'}>
                                 <div className={styles.inlineCenter}>
-                                    <Icon as={MdVpnKey} m={'5px 5px 0 0'} color='#00c9c5'/>
+                                    <MdVpnKey className={styles.icon}/>
                                     Create an SSH Key.
                                 </div>
                             </ListItem>
                             <ListItem fontSize={'4.5vh'}>
                                 <div className={styles.inlineCenter}>
-                                    <Icon as={MdConnectWithoutContact} m={'5px 5px 0 0'} color='#00c9c5'/>
+                                    <MdConnectWithoutContact className={styles.icon}/>
                                     Connect to me!
                                 </div>
                             </ListItem>
