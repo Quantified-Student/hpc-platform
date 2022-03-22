@@ -42,7 +42,7 @@ jobs:
       - name: Built test enviroment
         run: npm install
       - name: Test
-        run: npx next test
+        run: npm test
 
   docker:
     name: Dev docker build
