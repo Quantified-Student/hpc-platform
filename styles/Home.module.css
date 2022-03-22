@@ -1,16 +1,18 @@
-.container{
+.leftContainer{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 50px;
-  height:100vh;
+  height:100%;
 }
-.loginButton{
-  width:80%;
-  height:60px;
-  margin:1vh;
-  font-size: 3vh;
+.rightContainer{
+  display: flex;
+  margin-left: 12%;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height:100%;
 }
 .inlineCenter{
   display:flex;
@@ -21,4 +23,9 @@
   margin: 3px 10px 0 0;
   color: #00c9c5;
   font-size: 6vh;
+}
+.sideBox{
+  margin-top:10%;
+  margin-bottom: 10%;
+  border-radius: 20px 0 0 20px ;
 }
