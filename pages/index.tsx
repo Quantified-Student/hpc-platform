@@ -1,8 +1,7 @@
 import type {NextPage} from 'next';
-import {Box, Button, Grid, GridItem, Heading, Image, List, ListItem} from "@chakra-ui/react";
+import {Box, Button, Grid, GridItem, Heading, List, ListItem} from "@chakra-ui/react";
 import styles from "../styles/Home.module.css";
 import {MdConnectWithoutContact, MdLogin, MdVpnKey} from "react-icons/md";
-import deltaLogo from "../public/images/delta.png";
 
 const Home: NextPage = () => {
     return (
