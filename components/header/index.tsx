@@ -9,9 +9,6 @@ function Header(){
                     <Heading size='md'>HPC</Heading>
                 </Box>
                 <Spacer />
-                <Box>
-                    <Button colorScheme='teal'>Log in</Button>
-                </Box>
             </Flex>
             <Divider className={styles.divider}/>
         </div>
