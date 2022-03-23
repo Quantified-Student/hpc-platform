@@ -1,7 +1,8 @@
 import type {NextPage} from 'next';
-import {Box, Button, Grid, GridItem, Heading, List, ListItem} from "@chakra-ui/react";
+import {Box, Button, Grid, GridItem, Heading, Image, List, ListItem} from "@chakra-ui/react";
 import styles from "../styles/Home.module.css";
 import {MdConnectWithoutContact, MdLogin, MdVpnKey} from "react-icons/md";
+import deltaLogo from "../public/images/delta.png";
 
 const Home: NextPage = () => {
     return (
@@ -14,14 +15,16 @@ const Home: NextPage = () => {
                 <GridItem className={styles.sideBox} colSpan={1}>
                     <div className={styles.leftContainer}>
                         <Heading m={'3vh'} textAlign={'center'} fontSize={'7vh'}>
-                            Welcome to GLaDOS
+                            Welcome! <br/> I am GLaDOS
                         </Heading>
-                        <Box bg='#663366' w='100%' h='65%' color='white'>
-                            This is a cool image or animation or something idk
+                        <Box  w='100%' h='65%'>
+                            <div className={styles.image}>
+                                <img src={"/images/delta.png"} alt='Image missing'/>
+                            </div>
                         </Box>
                     </div>
                 </GridItem>
-                <GridItem className={styles.sideBox} colSpan={2} bg='#663366'>
+                <GridItem className={styles.sideBox} colSpan={2} bg='#31353F'>
                     <div className={styles.rightContainer}>
                         <List marginLeft={'2%'} spacing={5}>
                             <ListItem fontSize={'5vh'}>
@@ -43,7 +46,7 @@ const Home: NextPage = () => {
                                 </div>
                             </ListItem>
                         </List>
-                        <Button borderColor={'#00c9c5'} margin={'3vh'} size='lg' border='4px' width={'80%'} height={'10vh'}
+                        <Button borderColor={'#A64EA6'} margin={'6vh 3vh 3vh 3vh'} size='lg' border='4px' width={'80%'} height={'10vh'}
                                 fontSize='3vh' variant={'outline'}>
                             LOG IN
                         </Button>

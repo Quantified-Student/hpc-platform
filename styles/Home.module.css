@@ -21,11 +21,16 @@
 }
 .icon{
   margin: 3px 10px 0 0;
-  color: #00c9c5;
+  color: #A64EA6;
   font-size: 6vh;
 }
 .sideBox{
   margin-top:10%;
   margin-bottom: 10%;
   border-radius: 20px 0 0 20px ;
+}
+.image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -12,7 +12,7 @@ function SideMenu() {
                 </Heading>
                 <Divider/>
                 <HStack className={styles.stack}>
-                    <Circle size='30px' bg='teal' color='white'>
+                    <Circle size='30px' bg='#A64EA6' color='white'>
                         <Icon as={MdVpnKey} w={5} h={5}/>
                     </Circle>
                     <p>SSH Keys</p>
@@ -24,13 +24,13 @@ function SideMenu() {
                 </Heading>
                 <Divider/>
                 <HStack className={styles.stack}>
-                    <Circle size='30px' bg='teal' color='white'>
+                    <Circle size='30px' bg='#A64EA6' color='white'>
                         <Icon as={MdComputer} w={5} h={5}/>
                     </Circle>
                     <p>System usage</p>
                 </HStack>
                 <HStack className={styles.stack}>
-                    <Circle size='30px' bg='teal' color='white'>
+                    <Circle size='30px' bg='#A64EA6' color='white'>
                         <Icon as={MdComputer} w={5} h={5}/>
                     </Circle>
                     <p>Personal usage</p>

@@ -23,7 +23,7 @@ const Dashboard : NextPage = () => {
                 <GridItem colSpan={1}>
                     <SideMenu/>
                 </GridItem>
-                <GridItem colSpan={4} bg='grey'> Content </GridItem>
+                <GridItem colSpan={4} bg='#31353F'> Content </GridItem>
             </Grid>
 
             <footer className={styles.footer}>
