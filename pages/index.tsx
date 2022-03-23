@@ -14,12 +14,14 @@ const Home: NextPage = () => {
             >
                 <GridItem className={styles.sideBox} colSpan={1}>
                     <div className={styles.leftContainer}>
-                        <Heading m={'3vh'} textAlign={'center'} fontSize={'7vh'}>
+                        <Heading m={'3vh'} textAlign={'center'} fontSize={'6vh'}>
                             Welcome! <br/> I am GLaDOS
                         </Heading>
                         <Box  w='100%' h='65%'>
                             <div className={styles.image}>
-                                <img src={"/images/delta.png"} alt='Image missing'/>
+                                <div className={styles.topOval}/>
+                                <img width={'60%'} src={"/images/delta.png"} alt='Image missing'/>
+                                <div className={styles.bottomOval}/>
                             </div>
                         </Box>
                     </div>
@@ -46,7 +48,7 @@ const Home: NextPage = () => {
                                 </div>
                             </ListItem>
                         </List>
-                        <Button borderColor={'#A64EA6'} margin={'6vh 3vh 3vh 3vh'} size='lg' border='4px' width={'80%'} height={'10vh'}
+                        <Button borderColor={'#A64EA6'} margin={'6vh 3vh 3vh 3vh'} size='lg' border='4px' width={'80%'} height={'12vh'}
                                 fontSize='3vh' variant={'outline'}>
                             LOG IN
                         </Button>
